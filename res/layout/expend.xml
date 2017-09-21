@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+      <TextView 
+          android:id="@+id/tip_TypeOfExpend" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:text="@string/TypeOfExpend"  />
+    
+      <RadioGroup 
+          android:id="@+id/g1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal">
+          <RadioButton
+              android:id="@+id/food"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:checked="true"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_food"/>
+          <RadioButton
+              android:id="@+id/shop"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_shop" />
+          <RadioButton
+              android:id="@+id/entertainment"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_entertainment"/>
+     
+          <RadioButton
+              android:id="@+id/communication"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1" 
+              android:button="@null"
+              android:background="@drawable/button_communication"/>
+      </RadioGroup>
+      <RadioGroup 
+          android:id="@+id/g2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:orientation="horizontal">
+          <RadioButton
+              android:id="@+id/study"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"      
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_study"/>
+          <RadioButton
+              android:id="@+id/travle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_travle" />
+          <RadioButton
+              android:id="@+id/medical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_medical"/>
+     
+          <RadioButton
+              android:id="@+id/others"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:background="@drawable/button_others" />
+    </RadioGroup>
+      
+     <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/food"
+              android:textAlignment="center"/>
+         <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/shop" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/entertainment"/>
+     
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1" 
+              android:text="@string/communication"/>
+      </LinearLayout>
+      <!-- 提示输入金额-->   
+      <TextView 
+          android:id="@+id/tip_cinMoney" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:text="@string/PleaseCinMoneyOfExpend"  />
+   
+      <!-- 输入金额文本框-->
+	  <EditText
+	      android:id="@+id/MoneyOfExpend"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:inputType="number" > 
+      </EditText>
+	    
+      <!-- 提示输入备注-->
+      <TextView 
+          android:id="@+id/tip_cinRemark" 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:text="@string/PleaseCinRemarkOfExpend"  />
+    
+      <!-- 输入备注文本框-->
+
+      <EditText
+          android:id="@+id/RemarkOfExpend"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:ems="10" >
+
+          <requestFocus android:layout_width="wrap_content" />
+
+      </EditText>
+
+      <LinearLayout 
+	      android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+	      <Button
+	          android:id="@+id/expend_confirm"	       
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"
+	          android:text="@string/confirm"/>
+	      <Button
+	          android:id="@+id/expend_cancel"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1"
+	          android:text="@string/cancel"/>
+	  </LinearLayout>
+</LinearLayout> 
+

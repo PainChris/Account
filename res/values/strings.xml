@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">记计帐</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="show_balance">余额显示</string>
+    <string name="add">记账</string>
+    <string name="inquire">查询</string>
+    <string name="rental">总额</string>
+    <string name="title_activity_expend_and_income">ExpendAndIncomeActivity</string>
+    <string name="tip_total">操作提示</string>
+    <string name="tip_part_expend">支出记一笔</string>
+    <string name="tip_add_expend">-</string>
+    <string name="tip_part_income">收入记一笔</string>
+    <string name="tip_add_income">+</string>
+    <string name="TypeOfExpend">类型</string>
+    <string name="PleaseCinMoneyOfExpend">请输入金额</string>
+    <string name="PleaseCinRemarkOfExpend">请输入备注</string>
+    <string name="title_activity_expend">ExpendActivity</string>
+    <string name="food">饮食</string>
+    <string name="entertainment">娱乐</string>
+    <string name="study">学习</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_income">IncomeActivity</string>
+    <string name="parttime_job">兼职</string>
+    <string name="living_expenses">生活费</string>
+    <string name="conduct_financial_transactions">理财</string>
+    <string name="title_activity_sector">SectorActivity</string>
+    <string name="sector">扇形图</string>
+    <string name="shop">购物</string>
+    <string name="communication">通讯</string>
+    <string name="travle">出行</string>
+    <string name="medicial">医疗</string>
+    <string name="others">其他</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_get_date">GetDateActivity</string>
+    <string name="setMoney">塞钱</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="setting">输入你的月消费上限</string>
+    <string name="title_activity_ring">RingActivity</string>
+    <string name="sunday_text">周日</string>
+    <string name="monday_text">周一</string>
+    <string name="tuesday_text">周二</string>
+    <string name="wednesday_text">周三</string>
+    <string name="thursday_text">周四</string>
+    <string name="friday_text">周五</string>
+    <string name="saturday_text">周六</string>
+    <string name="title_activity_get_detail">GetDetailActivity</string>
+    <string name="showdetail">显示明细</string>
+    <string name="datetodate">至</string>
+    <string name="statistics">消费统计图</string>
+    <string name="back">返回</string>
+
+</resources>
